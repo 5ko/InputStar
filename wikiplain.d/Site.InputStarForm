@@ -1,0 +1,7 @@
+>>frame<<
+$[Summary]: Input control shaped like a group of 5 stars.\\
+$[Version]: {$ExtVersion}\\
+$[Maintainer]: [[https://www.pmwiki.org/petko|Petko]]\\
+$[Cookbook]: [[(Cookbook:){$ExtName}]]
+>><<
+

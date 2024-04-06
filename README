@@ -1,0 +1,10 @@
+Input star form control for PmWiki. 
+
+Markup: (:input star elementname:)
+
+Result: a group of radio buttons styled like 5 stars.
+
+Documentation, demo:
+
+  https://www.pmwiki.org/wiki/Cookbook/InputStar
+

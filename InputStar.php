@@ -1,14 +1,14 @@
 <?php if (!defined('PmWiki')) exit();
 /**
   Input star control for PmWiki
-  Written by (c) Petko Yotov 2024   www.pmwiki.org/Petko
+  Written by (c) Petko Yotov 2024   www.pmwiki.org/petko
   License: MIT
   
   This extension creates (:input star name:) element that outputs
-  a specially-formatted radio set with stars instead of circles.
+  a group of radio buttons styled with stars instead of circles.
 */
 
-$RecipeInfo['InputStar']['Version'] = '2024-04-03';
+$RecipeInfo['InputStar']['Version'] = '2024-04-06a';
 
 SDVA($InputTags['star'], [
   ':fn' => 'InputStar',
