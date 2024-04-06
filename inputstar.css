@@ -1,0 +1,33 @@
+/**
+  Input star control for PmWiki
+  Written by (c) Petko Yotov 2024   www.pmwiki.org/Petko
+  License: MIT
+  
+  Here are the styles for the (:input star:) element
+*/
+
+.pminputstars {
+  display: inline-block;
+  direction: rtl;
+}
+
+.pminputstars input {
+  display: none;
+}
+
+.pminputstars input+label {
+  filter: grayscale(1) opacity(.7);
+  margin-left: 0;
+  margin-right: 0;
+}
+.pminputstars input:checked ~ label {
+  filter: grayscale(0) opacity(1);
+}
+.pminputstars input+label:before {
+  content: "\2B50";
+}
+.pminputstars input+label:hover, .pminputstars input+label:hover ~ label {
+  cursor: pointer;
+  filter: grayscale(0) opacity(1) hue-rotate(90deg);
+}
+
